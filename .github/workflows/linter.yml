@@ -37,27 +37,33 @@ jobs:
             fi
           done
       
-      # Run ESLint
-      - name: Run ESLint
+      # Initialize package.json
+      - name: Initializing package.json
         # initialize package.json
         run: npm init
 
-        # locally install ESLint
+      # Locally install ESLint
+      - name: Installing ESLint
         run: npm install --save-dev eslint
 
-        # initialize ESLint configurations
+      # Initialize ESLint configurations
+      - name: Initializing ESLint configurations
         run: eslint --init
 
-        # install JSDoc plugin
+      # Install JSDoc plugin
+      - name: Install JSDoc plugin
         run: npm install --save-dev eslint-plugin-jsdoc
 
-        # install file names plugin
+      # Install file names plugin
+      - name: Installing file names plugin
         run: npm install eslint-plugin-filenames --save-dev
 
-        # install file header plugin
+      # Install file header plugin
+      - name: Installing file header plugin
         run: npm install eslint-plugin-header --save-dev
 
-        # run ESLint on JS files in baeometer directory
+      # Run ESLint on JS files in baeometer directory
+      - name: Running on chosen directory (baometer)
         run: npx eslint source/baeometer/*.js
 
       
