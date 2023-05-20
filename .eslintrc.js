@@ -38,7 +38,7 @@ module.exports = {
             'ignoreGlobals': true,
         }],
         // only allows single and backticks
-        'quotes': ['error', 'single', 'backtick'],
+        'quotes': ['error', 'single', { allowTemplateLiterals: true }],
         // requires a limit of 100 characters per line
         'max-len': ['error', { 'code': 100 }],
         // requires comments to be above a line
