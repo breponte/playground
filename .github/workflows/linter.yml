@@ -42,9 +42,9 @@ jobs:
         # initialize package.json
         run: npm init -y
 
-      # Locally install ESLint
+      # Globally install ESLint
       - name: Installing ESLint
-        run: npm install --save-dev eslint
+        run: npm install -g eslint
 
       # Initialize ESLint configurations
       - name: Initializing ESLint configurations
