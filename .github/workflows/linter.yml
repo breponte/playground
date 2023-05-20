@@ -40,7 +40,7 @@ jobs:
       # Initialize package.json
       - name: Initializing package.json
         # initialize package.json
-        run: npm init
+        run: npm install
 
       # Locally install ESLint
       - name: Installing ESLint
