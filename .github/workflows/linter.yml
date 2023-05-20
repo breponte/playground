@@ -52,15 +52,15 @@ jobs:
 
       # Install JSDoc plugin
       - name: Install JSDoc plugin
-        run: npm install --save-dev eslint-plugin-jsdoc
+        run: npm install eslint-plugin-jsdoc@latest --save-dev
 
       # Install file names plugin
       - name: Installing file names plugin
-        run: npm install eslint-plugin-filenames --save-dev
+        run: npm install eslint-plugin-filename@latest --save-dev
 
       # Install file header plugin
       - name: Installing file header plugin
-        run: npm install eslint-plugin-header --save-dev
+        run: npm install eslint-plugin-header@latest --save-dev
 
       # Run ESLint on JS files in baeometer directory
       - name: Running on chosen directory (baometer)
