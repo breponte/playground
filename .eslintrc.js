@@ -44,7 +44,7 @@ module.exports = {
         // requires comments to be above a line
         'line-comment-position': ['error', { 'position': 'above' }],
         'no-inline-comments': 'error',
-        'multiline-comment-style': ['error', separate-lines],
+        'multiline-comment-style': ['error', 'separate-lines'],
         'padding-line-between-statements': [
             // requires line break between functions
             'error', { 
