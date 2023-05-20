@@ -1,0 +1,6 @@
+/*
+ * Poor
+ */
+() => {
+    console.log("Bad");
+}
