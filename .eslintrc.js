@@ -33,10 +33,10 @@ module.exports = {
         // disables arrow callback function notation
         'prefer-arrow-callback': 'error',
         // requires camelcase in all variables, except for magic globals
-        'camelcase': { 
+        'camelcase': ['error', { 
             'properties': 'always',
             'ignoreGlobals': true,
-        },
+        }],
         // only allows single and backticks
         'quotes': ['error', 'single', 'backtick'],
         // requires a limit of 100 characters per line
