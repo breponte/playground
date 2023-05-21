@@ -13,7 +13,7 @@ let MAGIC_NUMBER = 10;
  * @param {int} num - num to be printed and passed
  * @returns {int} - passed in num
  */
-function double (num) {
+function twice (num) {
     let camelCase = num * 2;
     // log passed in number
     console.log(`valid ${num}`);
@@ -21,5 +21,5 @@ function double (num) {
     return camelCase;
 }
 
-console.log(double(5));
+console.log(twice(5));
 console.log(MAGIC_NUMBER);
