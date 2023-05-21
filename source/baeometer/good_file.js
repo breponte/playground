@@ -1,4 +1,4 @@
-/**
+/*
  * CSE 110 SP23 Team 28, UC Sussy Developers
  * Date: 05/20/2023
  * Authors: Brandon Reponte
