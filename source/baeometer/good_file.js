@@ -6,7 +6,7 @@
  */
 
 // should not be caught as it is global and magic number
-const MAGIC = 'Kadabra';
+let MAGIC = 'Kadabra';
 
 /* 
  * Takes in a number, log it to console, and return double it
