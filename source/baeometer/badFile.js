@@ -1,20 +1,30 @@
-/*
- * Poor
+/**
+ * @returns something
  */
 function adjacent (bad) {
+    console.log(bad);
     console.log("No space between functions");
+    return bad;
 }
-function multiline () {
+/**
+ * @param {string} block - string
+ * @returns {string} passed
+ */
+function multiline (block) {
     /*
      * This comment is invalid
      */
-    console.log("Bad block");
+    console.log(block);
+    return block;
 }
 
-function notCamel () {
+/**
+ * @param - not camel
+ */
+function notCamel (snake_case) {
     // invalid variable name
-    let snake_case = 'sss'; // bad position
-    console.log(snake_case);
+    console.log(snake_case); // bad position
+    return 0;
 }
 
 const materials = [
