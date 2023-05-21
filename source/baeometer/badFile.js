@@ -13,7 +13,7 @@ function multiline () {
 
 function notCamel () {
     // invalid variable name
-    let snake_case = 'sss';
+    let snake_case = 'sss'; // bad position
     console.log(snake_case);
 }
 

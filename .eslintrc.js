@@ -38,7 +38,7 @@ module.exports = {
 
         /* ESLinter: */
         // disables arrow callback function notation
-        'prefer-arrow-callback': 'error',
+        'arrow-body-style': 'off',
         // requires camelcase in all variables, except for magic globals
         'camelcase': ['error', { 
             'properties': 'always',
