@@ -1,8 +1,8 @@
 /*
  * CSE 110 SP23 Team 28, UC Sussy Developers
  * Date: 05/20/2023
- * Authors: Brandon Reponte
- * Description: Valid file
+ * Authors: John Doe
+ * Description: This is a sample file header.
  */
 
 // should not be caught as it is global and magic number
