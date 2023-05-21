@@ -44,7 +44,7 @@ jobs:
 
       # Globally install ESLint
       - name: Installing ESLint
-        run: npm install --global eslint
+        run: npm install --global eslint@latest
 
       # Initialize ESLint configurations
       - name: Initializing ESLint configurations
