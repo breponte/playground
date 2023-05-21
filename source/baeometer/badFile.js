@@ -3,7 +3,7 @@
  */
 function adjacent (bad) {
     console.log("No space between functions")
-    return (bad) => { console.log(bad) };
+    return ((bad) => { console.log(bad) });
 }
 function multiline () {
     /*

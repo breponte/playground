@@ -6,7 +6,7 @@
  */
 
 // should not be caught as it is global and magic number
-let MAGIC = 'Kadabra';
+let MAGIC_NUMBER = 'Kadabra';
 
 /* 
  * Takes in a number, log it to console, and return double it
@@ -22,4 +22,4 @@ function double (num) {
 }
 
 console.log(double(num));
-console.log(MAGIC);
+console.log(MAGIC_NUMBER);
