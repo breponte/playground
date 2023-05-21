@@ -2,8 +2,7 @@
  * Poor
  */
 function adjacent (bad) {
-    console.log("No space between functions")
-    return ((bad) => { console.log(bad) });
+    console.log("No space between functions");
 }
 function multiline () {
     /*
@@ -18,4 +17,14 @@ function notCamel () {
     console.log(snake_case);
 }
 
+const materials = [
+    'Hydrogen',
+    'Helium',
+    'Lithium',
+    'Beryllium'
+  ];
+  
+console.log(materials.map(material => material.length));
+  // Expected output: Array [8, 6, 7, 9]
+  
 console.log('This is a very long sentence that exceeds our limit of 100 characters per line, so this will be caught as an error as it violates our style');
