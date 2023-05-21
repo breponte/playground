@@ -2,7 +2,7 @@ module.exports = {
     // import JSDocs for format
     'plugins': [
         'jsdoc',
-        'filename',
+        'filenames-simple',
         'header',
     ],
     'extends': ['plugin:jsdoc/recommended'],
@@ -76,7 +76,7 @@ module.exports = {
         ],
 
         // file name convention (lowercase separated by underscores)
-        'filename/match-regex': ['warn', 'snake_case'],
+        'filenames-simple/naming-convention': ['warn', 'snake_case'],
         /* ESLinter */
     },
   };

@@ -56,7 +56,7 @@ jobs:
 
       # Install file names plugin
       - name: Installing file names plugin
-        run: npm install eslint-plugin-filename@latest --save-dev
+        run: npm install eslint-plugin-filenames-simple@latest --save-dev
 
       # Install file header plugin
       - name: Installing file header plugin
