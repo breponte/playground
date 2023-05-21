@@ -6,7 +6,7 @@
  */
 
 // should not be caught as it is global and magic number
-let number = 10;
+var number = 10;
 
 /* 
  * Takes in a number, log it to console, and return double it
