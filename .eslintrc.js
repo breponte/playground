@@ -1,4 +1,10 @@
 module.exports = {
+    "parserOptions": {
+        "ecmaVersion": 6,
+        "sourceType": "script",
+        "ecmaFeatures": {}
+    },
+
     // import JSDocs for format
     'plugins': [
         'jsdoc',
