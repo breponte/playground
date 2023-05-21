@@ -76,7 +76,7 @@ module.exports = {
         // file header convention
         'header/header': ['error', 'block', [
                 '',
-                /^CSE 110 SP23 Team 28, UC Sussy Developers$/,
+                'CSE 110 SP23 Team 28, UC Sussy Developers',
             ]
         ],
 
