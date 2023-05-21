@@ -14,7 +14,8 @@ window.MAGIC_NUMBER = 10;
  * @returns {int} - passed in num
  */
 function twice (num) {
-    let camelCase = num * 2;
+    let camelCase;
+    camelCase = num * 2;
     // log passed in number
     console.log(`valid ${num}`);
     console.log('pass');
@@ -22,4 +23,4 @@ function twice (num) {
 }
 
 console.log(twice(5));
-console.log(MAGIC_NUMBER);*/
+console.log(MAGIC_NUMBER);
