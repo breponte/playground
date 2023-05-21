@@ -49,6 +49,7 @@ jobs:
       # Initialize ESLint configurations
       - name: Initializing ESLint configurations
         run: eslint --init
+        run: eslint --version
 
       # Install JSDoc plugin
       - name: Install JSDoc plugin
