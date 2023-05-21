@@ -78,8 +78,8 @@ module.exports = {
                 '',
                 /^CSE 110 SP23 Team 28, UC Sussy Developers$/,
                 /^Date: \d{2}\/\d{2}\/\d{4}$/,
-                'Authors:',
-                'Description:',
+                /^Authors: [\s\S]*$/,
+                /^Description: [\s\S]*$/,
             ]
         ],
 
