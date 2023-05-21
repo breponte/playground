@@ -1,4 +1,5 @@
 module.exports = {
+    // define parser version
     "parserOptions": {
         "ecmaVersion": 6,
         "sourceType": "script",
@@ -37,23 +38,23 @@ module.exports = {
 
         /* ESLinter: */
         // disables arrow callback function notation
-        'prefer-arrow-callback': 'warn',
+        'prefer-arrow-callback': 'error',
         // requires camelcase in all variables, except for magic globals
-        'camelcase': ['warn', { 
+        'camelcase': ['error', { 
             'properties': 'always',
             'ignoreGlobals': true,
         }],
         // only allows single and backticks
-        'quotes': ['warn', 'single', { allowTemplateLiterals: true }],
+        'quotes': ['error', 'single', { allowTemplateLiterals: true }],
         // requires a limit of 100 characters per line
-        'max-len': ['warn', { 'code': 100 }],
+        'max-len': ['error', { 'code': 100 }],
         // requires comments to be above a line
-        'line-comment-position': ['warn', { 'position': 'above' }],
-        'no-inline-comments': 'warn',
-        'multiline-comment-style': ['warn', 'separate-lines'],
+        'line-comment-position': ['error', { 'position': 'above' }],
+        'no-inline-comments': 'error',
+        'multiline-comment-style': ['error', 'separate-lines'],
         'padding-line-between-statements': [
             // requires line break between functions
-            'warn', { 
+            'error', { 
                 'blankLine': 'always', 
                 'prev': 'function', 
                 'next': 'function' 
@@ -73,7 +74,7 @@ module.exports = {
         ],
 
         // file header convention
-        'header/header': ['warn', 'block', [
+        'header/header': ['error', 'block', [
                 /^CSE 110 SP23 Team 28, UC Sussy Developers$/,
                 /^Date: \d{2}-\d{2}-\d{4}$/,
                 'Authors:',
@@ -82,7 +83,7 @@ module.exports = {
         ],
 
         // file name convention (lowercase separated by underscores)
-        'filenames-simple/naming-convention': ['warn', {'rule': 'snake_case'}],
+        'filenames-simple/naming-convention': ['error', {'rule': 'snake_case'}],
         /* ESLinter */
     },
   };
