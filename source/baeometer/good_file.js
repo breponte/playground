@@ -6,7 +6,7 @@
  */
 
 // should not be caught as it is global and magic number
-let MAGIC_NUMBER = 10;
+let number = 10;
 
 /* 
  * Takes in a number, log it to console, and return double it
@@ -22,4 +22,4 @@ function twice (num) {
 }
 
 console.log(twice(5));
-console.log(MAGIC_NUMBER);
+console.log(number);
