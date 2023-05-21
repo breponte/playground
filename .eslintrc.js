@@ -76,7 +76,7 @@ module.exports = {
         ],
 
         // file name convention (lowercase separated by underscores)
-        'filenames/match-regex': ['warn', 'snake_case'],
+        'filename/match-regex': ['warn', 'snake_case'],
         /* ESLinter */
     },
   };
