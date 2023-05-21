@@ -76,7 +76,7 @@ module.exports = {
         ],
 
         // file name convention (lowercase separated by underscores)
-        'filenames-simple/naming-convention': ['warn', 'snake_case'],
+        'filenames-simple/naming-convention': ['warn', {'rule': 'snake_case'}],
         /* ESLinter */
     },
   };
