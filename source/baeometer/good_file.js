@@ -12,7 +12,7 @@ window.MAGIC_NUMBER = 10;
  * Takes in a number, log it to console, and return double it
  * @param {int} num - num to be printed and passed
  * @returns {int} - passed in num
- *//*
+ */
 function twice (num) {
     let camelCase = num * 2;
     // log passed in number
