@@ -31,23 +31,23 @@ module.exports = {
 
         /* ESLinter: */
         // disables arrow callback function notation
-        'prefer-arrow-callback': 'warning',
+        'prefer-arrow-callback': 'warn',
         // requires camelcase in all variables, except for magic globals
-        'camelcase': ['warning', { 
+        'camelcase': ['warn', { 
             'properties': 'always',
             'ignoreGlobals': true,
         }],
         // only allows single and backticks
-        'quotes': ['warning', 'single', { allowTemplateLiterals: true }],
+        'quotes': ['warn', 'single', { allowTemplateLiterals: true }],
         // requires a limit of 100 characters per line
-        'max-len': ['warning', { 'code': 100 }],
+        'max-len': ['warn', { 'code': 100 }],
         // requires comments to be above a line
-        'line-comment-position': ['warning', { 'position': 'above' }],
-        'no-inline-comments': 'warning',
-        'multiline-comment-style': ['warning', 'separate-lines'],
+        'line-comment-position': ['warn', { 'position': 'above' }],
+        'no-inline-comments': 'warn',
+        'multiline-comment-style': ['warn', 'separate-lines'],
         'padding-line-between-statements': [
             // requires line break between functions
-            'warning', { 
+            'warn', { 
                 'blankLine': 'always', 
                 'prev': 'function', 
                 'next': 'function' 
@@ -67,7 +67,7 @@ module.exports = {
         ],
 
         // file header convention
-        'header/header': ['warning', 'block', [
+        'header/header': ['warn', 'block', [
                 /^CSE 110 SP23 Team 28, UC Sussy Developers$/,
                 /^Date: \d{2}-\d{2}-\d{4}$/,
                 'Authors:',
@@ -76,7 +76,7 @@ module.exports = {
         ],
 
         // file name convention (lowercase separated by underscores)
-        'filenames/match-regex': ['warning', 'snake_case'],
+        'filenames/match-regex': ['warn', 'snake_case'],
         /* ESLinter */
     },
   };
